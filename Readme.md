@@ -1,4 +1,4 @@
-# Simple Docker Container 
+# Load Balancer with Docker-Compose & Express Web Servers
 
 1. Create simple node/express app. (see index.js)
 
