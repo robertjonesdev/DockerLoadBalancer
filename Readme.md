@@ -16,13 +16,13 @@
         docker stop nodeapp
         docker rm nodeapp
 
-4. Spin up multiple containers 
+4. Spin up multiple containers to test. (After testing, stop the apps)
 
         docker run -d -p 8000:9999 nodeapp 
         docker run -d -p 8001:9999 nodeapp
         docker run -d -p 8002:9999 nodeapp
 
-5. User docker-compose for a load balancer. Create docker-compose.yml 
+5. User docker-compose for a load balancer. Create haproxy/haproxy.cfg and create docker-compose.yml config file.
 
         docker-compose up
 
